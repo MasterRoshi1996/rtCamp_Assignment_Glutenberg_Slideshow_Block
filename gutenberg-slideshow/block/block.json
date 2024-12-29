@@ -1,0 +1,24 @@
+{
+  "apiVersion": 2,
+  "name": "gutenberg-slideshow/block",
+  "title": "Slideshow Block",
+  "category": "widgets",
+  "icon": "images-alt2",
+  "description": "A slideshow block for displaying posts from a WordPress site.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "siteURL": {
+      "type": "string",
+      "default": "https://wptavern.com"
+    },
+    "autoScroll": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css"
+}

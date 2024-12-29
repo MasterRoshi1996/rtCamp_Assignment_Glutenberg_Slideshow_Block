@@ -1,0 +1,10 @@
+/* Frontend Styles */
+.slideshow {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.slide {
+  min-width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
