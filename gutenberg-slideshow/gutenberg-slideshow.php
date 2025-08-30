@@ -3,7 +3,7 @@
  * Plugin Name: Gutenberg Slideshow Block
  * Description: A custom Gutenberg block for a responsive slideshow using WP REST API.
  * Version: 1.0.0
- * Author: Your Name
+ * Author: Shaunak
  */
 
 function gutenberg_slideshow_register_block() {
